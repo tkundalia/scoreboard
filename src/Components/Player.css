@@ -1,0 +1,23 @@
+ .player {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .player p {
+    flex: 1;
+    padding: 12px 24px;
+    font-size: 150%;
+  }
+  
+  .player p.name {
+    font-weight: bold;
+    
+  }
+  
+  .player p.score {
+    max-width: 50px;
+    background-color: grey;
+    color: white
+}
