@@ -21,7 +21,7 @@ import './Scoreboard.css'
 //   ]
   
   export default class Scoreboard extends Component {
-    state = {
+    state = {   //here state called
        players: [
       {
         id: 1,
