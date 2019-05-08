@@ -2,23 +2,7 @@ import React, { Component } from 'react'
 import Player from './Player'
 import './Scoreboard.css'
 
-// const players = [
-//     {
-//       id: 1,
-//       name: 'Wouter',
-//       score: 2
-//     },
-//     {
-//       id: 2,
-//       name: 'Mimi',
-//       score: 5
-//     },
-//     {
-//       id: 3,
-//       name: 'Milan',
-//       score: 4
-//     }
-//   ]
+
   
   export default class Scoreboard extends Component {
     state = {   //here state called
