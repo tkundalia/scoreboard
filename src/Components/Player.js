@@ -7,7 +7,6 @@ import './Scoreboard'
 
 export default class Player extends Component {
   static propTypes = {
-    key: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,      
     score: PropTypes.number.isRequired,   
 
@@ -20,11 +19,12 @@ export default class Player extends Component {
   }
 
   render() {
+    
     return (
       <div className="player">
         <p className="name">{ this.props.name }</p>
         <p className="score">{ this.props.score }</p>
-        <PlusButton />
+        <PlusButton onPress={this.handleOnClick}/>
       </div>
     )
   }

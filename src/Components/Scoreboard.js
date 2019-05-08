@@ -40,14 +40,15 @@ import './Scoreboard.css'
       }
     ]
   }
-    renderPlayer(player) {
+    renderPlayer = (player) => {
+      
       return < Player
         key={player.id}
         name={player.name}
         score={player.score}
 
         id={player.id}                  // --- for updatePlayerScore with onclick '+' button. can use key id isntead?
-        updatePlayerScore={player.updatePlayerScore}    // onsite this.updatePlayerScore which doesn't work
+        updatePlayerScore={this.updatePlayerScore}    // onsite this.updatePlayerScore which doesn't work
       />
     }
 
